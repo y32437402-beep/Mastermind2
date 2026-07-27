@@ -1,4 +1,5 @@
 var card1=document.getElementById('card1')
+var gameheader=document.getElementById('game-header')
 var btns=document.querySelector('.btns')
 var type = document.getElementById('type')
 type.addEventListener('click', () => {
@@ -103,6 +104,7 @@ function startNewGame() {
 
     btns.style.display = 'ruby'
     card1.style.display = 'none'
+    gameheader.style.display = 'flex'
 
     
 }
